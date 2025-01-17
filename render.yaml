@@ -1,0 +1,11 @@
+# Exported from Render on 2025-01-17T12:41:07Z
+services:
+- type: web
+  name: sample-server
+  runtime: node
+  repo: https://github.com/nirmal003/sample-server
+  plan: free
+  region: oregon
+  buildCommand: yarn
+  startCommand: node server.js
+version: "1"
