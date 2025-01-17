@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "client": "npm start --prefix frontend",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "client": "npm start --prefix sample-client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix sample-client && npm run build --prefix sample-client"
   },
   "author": "Nirmal",
   "license": "MIT",
